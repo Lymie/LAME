@@ -3,13 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SpotifyTestComponent } from './spotify-test/spotify-test.component';
 
 import { StoreModule } from '@ngrx/store';
 import { counterReducer } from './counter.reducer';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SpotifyTestComponent
   ],
   imports: [
     BrowserModule,
