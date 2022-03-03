@@ -21,7 +21,7 @@ import { MyCounterComponent } from './my-counter/my-counter.component';
     BrowserModule,
     AppRoutingModule,
 
-    NgbModule
+    NgbModule,
 
     StoreModule.forRoot({ count: counterReducer })
 
